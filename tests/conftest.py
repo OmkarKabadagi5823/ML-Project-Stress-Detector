@@ -22,4 +22,5 @@ def app():
 def client(app):
     return app.test_client()
 
+
 # Now, pytest will discover all our test files, We can create some test files with test_ prefix in the same directory.
